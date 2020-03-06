@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.0.1)
+    stdlib (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  stdlib
+
+BUNDLED WITH
+   2.0.2
