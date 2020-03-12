@@ -9,6 +9,13 @@ puts k
 
 #=> gives {"id"=>"2", "name"=>"prashanth sams"}
 
+k = Hash.new
+k[:id] = 2
+k[:name] = 'prashanth sams'
+puts k
+
+#=> gives {"id"=>"2", "name"=>"prashanth sams"}
+
 m = Hash.new
 m.merge!({'id'=>"2"})
 m.merge!({'id'=>"3"}) # original value updated

@@ -36,3 +36,9 @@ puts [1, 2, 3, 4].rotate(3)
 
 puts [[1, 2, 3], [4, 5, 6], [7, 8, 9]].transpose
 #=> gives [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+
+puts "prashanth".split("").uniq
+#=> gives ["p", "r", "a", "s", "h", "n", "t"]
+
+puts "prashanth".split("").join(" - ")
+#=> gives p - r - a - s - h - a - n - t - h
